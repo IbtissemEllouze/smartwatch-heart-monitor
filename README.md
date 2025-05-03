@@ -1,5 +1,4 @@
 # smartwatch-heart-monitor
-Titre : "Conception et Développement d’une Smartwatch Intelligente pour la Surveillance Cardiaque"
 
 
 Le projet consiste en la conception et le développement d'une smartwatch intelligente dédiée à la surveillance cardiaque. Le système utilise un capteur biométrique GY-MAX30100 connecté à une carte ESP32 pour mesurer en temps réel la fréquence cardiaque (BPM) et le taux de saturation en oxygène du sang (SpO2). Ces données sont envoyées chaque seconde vers Firebase Realtime Database, puis récupérées et affichées via une application mobile développée en Flutter. L'application permet non seulement de visualiser les données en temps réel, mais aussi d'afficher des courbes évolutives des paramètres cardiaques au fil du temps.
