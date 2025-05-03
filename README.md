@@ -1,15 +1,15 @@
 # smartwatch-heart-monitor
-
-
-Ce projet vise à concevoir et développer une smartwatch intelligente dédiée à la surveillance en temps réel de la santé cardiaque.  Le système utilise un capteur biométrique GY-MAX30100 connecté à une carte ESP32 pour mesurer en temps réel la fréquence cardiaque (BPM) et le taux de saturation en oxygène du sang (SpO2). Ces données sont envoyées chaque seconde vers Firebase Realtime Database, puis récupérées et affichées via une application mobile développée en Flutter. L'application permet non seulement de visualiser les données en temps réel, mais aussi d'afficher des courbes évolutives des paramètres cardiaques au fil du temps.
-
-L'outil intègre également un modèle d'intelligence artificielle, mis en œuvre dans Python avec Anaconda, qui analyse les données collectées afin de détecter des anomalies telles que la tachycardie ou la bradycardie. Plusieurs modèles ont été testés, parmi lesquels les méthodes KNN, arbre de décision et SVM, avec le SVM choisi pour ses meilleures performances globales. Ce projet vise à offrir une solution portable, intelligente et évolutive pour la surveillance de la santé en temps réel, en particulier pour les personnes présentant des risques cardiaques.
-
-Le système est conçu pour être évolutif et adaptable à diverses applications de santé, offrant une surveillance à distance des signes vitaux et une détection précoce des anomalies cardiaques.
-
-
-
-
+Ce projet vise à concevoir et développer un prototype de smartwatch
+dédié à la mesure et à l’analyse des constantes biomédicales, notamment la fréquence cardiaque
+(BPM) et la saturation en oxygène du sang (SpO2) . Ce dispositif repose sur un capteur
+GY-MAX30100 couplé à un microcontrôleur ESP32, permettant une acquisition précise des
+données physiologiques. Les données collectées sont transmises et stockées en temps réel dans
+une base de données Firebase Realtime Database, puis affichées sur une application mobile
+intuitive développée sous Flutter. Grâce à ces capacités d’analyse avancée, notre smartwatch ne
+se limite pas à la simple acquisition des données, mais propose également une interprétation
+intelligente des mesures grâce à l’integration des algorithmes d’intelligence artificielle (IA)
+capables d’identifier des anomalies du rythme cardiaque et de détecter d’éventuels troubles tels
+que la tachycardie et la bradycardie facilitant ainsi la prévention et le suivi des maladies .
 
 
 
