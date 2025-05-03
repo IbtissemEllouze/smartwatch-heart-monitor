@@ -3,8 +3,8 @@
 //Start Wifi
 #include <WiFi.h>
 #include <Firebase_ESP_Client.h>
-#define WIFI_SSID "TUNETD10F4F"
-#define WIFI_PASSWORD "6CF2A9C9F8"
+#define WIFI_SSID "**********"
+#define WIFI_PASSWORD "**********"
 //End Wifi
 
 //Start Firebase
