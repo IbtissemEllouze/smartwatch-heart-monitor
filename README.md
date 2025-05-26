@@ -1,16 +1,1 @@
-# smartwatch-heart-monitor
-Ce projet vise à concevoir et développer un prototype de smartwatch
-dédié à la mesure et à l’analyse des constantes biomédicales, notamment la fréquence cardiaque
-(BPM) et la saturation en oxygène du sang (SpO2) . Ce dispositif repose sur un capteur
-GY-MAX30100 couplé à un microcontrôleur ESP32, permettant une acquisition précise des
-données physiologiques. Les données collectées sont transmises et stockées en temps réel dans
-une base de données Firebase Realtime Database, puis affichées sur une application mobile
-intuitive développée sous Flutter. Grâce à ces capacités d’analyse avancée, notre smartwatch ne
-se limite pas à la simple acquisition des données, mais propose également une interprétation
-intelligente des mesures grâce à l’integration des algorithmes d’intelligence artificielle (IA)
-capables d’identifier des anomalies du rythme cardiaque et de détecter d’éventuels troubles tels
-que la tachycardie et la bradycardie facilitant ainsi la prévention et le suivi des maladies .
-
-
-
-
+This project aims to design and develop a smartwatch prototype dedicated to measuring and analyzing biomedical constants, notably heart rate (BPM) and blood oxygen saturation (SpO2). The device is based on a GY-MAX30100 sensor coupled with an ESP32 microcontroller, allowing precise acquisition of physiological data. The collected data are transmitted and stored in real-time in a Firebase Realtime Database, then displayed on an intuitive mobile application developed with Flutter. Thanks to its advanced analysis capabilities, our smartwatch goes beyond simple data acquisition by offering intelligent interpretation of measurements through the integration of artificial intelligence (AI) algorithms capable of identifying heart rhythm anomalies and detecting potential disorders such as tachycardia and bradycardia, thus facilitating prevention and monitoring of diseases.
